@@ -1,5 +1,6 @@
 body {
   background: peachpuff;
+  height: 100vh;
 }
 .container{
   display: flex;
@@ -83,7 +84,7 @@ margin-left: auto;
 position: relative;
 bottom: 150px;
 }
-@media(max-width:600px){
+@media(min-width:700px){
   .b{
     width: 32%;
   }
